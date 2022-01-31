@@ -3,8 +3,10 @@ import Quotes from "./components/Quotes";
 
 function App() {
   return (
-    <div className="App ui container">
-      <Quotes />
+    <div className="App">
+      <div className="ui container">
+        <Quotes />
+      </div>
     </div>
   );
 }

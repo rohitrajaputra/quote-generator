@@ -30,7 +30,11 @@ const Quotes = () => {
   if (quotes.length > 0) {
     return (
       <div className="ui piled very padded segment">
-        <p style={{ fontSize: "30px", padding: "25px" }}>
+        <h1 style={{ fontSize: "30px" }}>
+          <span style={{ color: "red" }}>Quote</span> Generator
+          <span style={{ color: "red", fontSize: "10px" }}>by Rohit</span>
+        </h1>
+        <p style={{ fontSize: "20px", padding: "25px" }}>
           {display ? display.text : ""}
         </p>
         <p style={{ fontSize: "20px" }}>{display ? display.author : ""}</p>
